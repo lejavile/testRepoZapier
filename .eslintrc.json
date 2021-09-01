@@ -1,0 +1,32 @@
+{
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": ["airbnb", "prettier", "plugin:node/recommended"],
+  "plugins": ["prettier"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "rules": {
+    "prettier/prettier": [
+      "error",
+      {
+        "singleQuote": true
+      }
+    ],
+    "no-unused-vars": "warn",
+    "no-console": "warn",
+    "func-names": "off",
+    "no-process-exit": "warn",
+    "object-shorthand": "off",
+    "class-methods-use-this": "off",
+    "no-restricted-syntax": 0,
+    "node/no-unsupported-features/es-syntax": "off"
+  }
+}
