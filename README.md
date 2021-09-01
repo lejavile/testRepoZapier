@@ -1,6 +1,5 @@
 # restApiCalAWS
 
-Microservices para calculadora de aws
-al bajar el repo realizar **npm install**
+Microservices para pruba de zapier **npm install**
 y correr **npm run start**
 
